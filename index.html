@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mark Leznik</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/mark.png" alt="Mark Leznik" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mark Leznik">Mark Leznik</h1>
+
+          <p class="title">Data Scientist, ML Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Info</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ulm, Baden-Württemberg, Germany</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="./assets/cv/cv_mark.pdf" target="_blank" class="social-link">
+              <ion-icon name="document-attach"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.de/citations?user=WFZaYYAAAAAJ&hl=de&oi=ao" target="_blank" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mleznik/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/mleznik" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/mleznik" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Selected Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Drinks</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Data scientist and Machine Learning Researcher with over 10 years of combined experience in industry R&D and academic research environments. 
+            With a computer science and computer engineering background, I have a comprehensive understanding and knowledge of the machine learning applications development life cycle, from data acquisition, storage, reproducible deployment and evaluation, as well as a publication track record in these topics. 
+            
+          </p>
+
+          <p>
+            My job as a Data Scientist and Machine Learning Engineer is to apply my know‐how and deliver high quality data analysis insights and results.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai-phd.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Science Ph.D.</h4>
+                  
+                <p class="service-item-text">
+                  at Ulm University on the topic of "Synthetic Time Series Workload Generation" using Generative Adversarial Networks
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai-car.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Applied Industry Research</h4>
+
+                <p class="service-item-text">
+                  I was a working research student on the subject of camera based driver's assistance for 7 years at Mercedes Benz Research and Developement 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai-paper.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Publications</h4>
+
+                <p class="service-item-text">
+                  I have published on the topic of generative neural networks, time series analysis and reproducible research
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai-repro.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">My Interests</h4>
+
+                <p class="service-item-text">
+                  My interets lie in synthetic data generation (currently more prominent as Gen AI) and methodologial ML/DL evaluation
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+          
+        </header>
+
+
+        <section class="timeline">          
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            
+
+            <h3 class="h3">Experience</h3>
+
+            <li class="social-item">
+              <a href="./assets/cv/cv_mark.pdf" target="_blank" class="social-link">
+                <img src="./assets/images/pdf.svg" alt="Web development icon" width="40">
+
+              </a>
+            </li>
+          </div>
+          
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Associate, Lecturer @ Ulm University</h4>
+
+              <span>2018 — Present</span>
+
+              <p class="timeline-text">
+                Researcher, data scientist and consultant on the topic of time series analysis and generation.
+                Lecturer and seminars on various machine/deep learning topics.
+                Supervision of numerous thesis students.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Working Research Student @ Mercedes Benz Research and Developement</h4>
+
+              <span>2011 — 2017</span>
+
+              <p class="timeline-text">
+                Reseach on night vision near infrared image colorization using synthetic image reconstruction.
+                Research and series developement of camera-based driver's assistance systems (360 degree cameras, side-mirror replacemant).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer @ S.A.D. GmbH</h4>
+
+              <span>2010 — 2011</span>
+
+              <p class="timeline-text">
+                Development of dashboards fortracking and predicting downloads of S.A.D. software.
+                Developement of business relations in Ukranine market.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ph.D. Computer Science, Ulm University</h4>
+
+              <span>2018 — present</span>
+
+              <p class="timeline-text">
+                Submission: February 2024. Ph.D. thesis topic: Synthetic Time Series Workload Generation
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">M.Sc. Computer Science, Ulm University (1.3 GPA)</h4>
+
+              <span>2006 — 2007</span>
+
+              <p class="timeline-text">
+                Majors: Computer Vision, Distributed Systems
+                Master thesis topic: Luminance Estimation of Colorized Near‐Infrared Images
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.Sc. Computer Engineering, Ulm University of Appliead Sciences (1.4 GPA)</h4>
+
+              <span>2010 — 2014</span>
+
+              <p class="timeline-text">
+                Bachelor thesis topic: Low‐light Image Quality Optimization of HDR Cameras
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My Skills</h3>
+          <h4 class="h4 skills-title">For a full list check CV</h3>
+        
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning/Deep Learning</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Visualisation</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MATLAB</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud Native Tools</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <article class="resume" data-page="selected publications">
+
+        
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+          
+        </header>
+
+
+        <section class="timeline">          
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            
+            <h4 class="h4">All publications on Google Scholar</h4>
+            <li class="social-item">
+              <a href="https://scholar.google.de/citations?hl=de&user=WFZaYYAAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" class="social-link">
+                <img src="./assets/images/scholar.svg" alt="Web development icon" width="40">
+              </a>
+            </li>
+          </div>
+        </section>
+
+
+        <section class="timeline">          
+    
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Comprehensive Exploration of Synthetic Data Generation: A Survey</h4>
+                <br />
+                <p class="timeline-text">André Bauer, Simon Trapp, Michael Stenger, Robert Leppich, Samuel Kounev, <b>Mark Leznik</b> , Kyle Chard, Ian Foster</p>
+                <br />
+                <p class="timeline-text">
+                  A huge journal publication diving into various approaches of synthetic data generation.
+                  This work surveys 417 Synthetic Data Generation models over the last decade, providing a comprehensive overview of model types, functionality, and improvements. 
+                  <li class="social-item">
+                    <a href="https://arxiv.org/pdf/2401.02524.pdf" target="_blank" class="social-link">
+                      <img src="./assets/images/pdf.svg" alt="Web development icon" width="20">
+                    </a>
+                  </li>
+                  <br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">[SoK] The Great GAN Bake Off, An Extensive Systematic Evaluation of Generative Adversarial Network Architectures for Time Series Synthesis</h4>
+                <br />
+                <p class="timeline-text"><b>Mark Leznik</b>, Arne Lochner, Stefan Wesner, Jörg Domaschka</p>
+                <br />
+                <p class="timeline-text">
+                  This work provides a methodologial evaluation of several GAN architectures (LSTM, CNN, Transformer) and showcases a pipeline of objectively evaluating the results of GANs, as well as recognizing "mode collapse"<div class=""></div>
+                  <li class="social-item">
+                    <a href="https://escholarship.org/content/qt33h6w78g/qt33h6w78g.pdf?t=rkajme&v=lg" target="_blank" class="social-link">
+                      <img src="./assets/images/pdf.svg" alt="Web development icon" width="20">
+                    </a>
+                  </li>
+                  <br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Same, Same, but Dissimilar: Exploring Measurements for Workload Time-series Similarity</h4>
+                <br />
+                <p class="timeline-text"><b>Mark Leznik</b>, Johannes Grohmann, Nina Kliche, André Bauer, Daniel Seybold, Simon Eismann, Samuel Kounev, Jörg Domaschka</p>
+                <br />
+                <p class="timeline-text">
+                  In this work, we look at numerous measures for comparing time series measurements runs. This allows for a more precise assesment of the underlying data, rather than relying on simple mean and std. deviation evaluation.
+                  <li class="social-item">
+                    <a href="https://dl.acm.org/doi/pdf/10.1145/3489525.3511699" target="_blank" class="social-link">
+                      <img src="./assets/images/pdf.svg" alt="Web development icon" width="20">
+                    </a>
+                  </li>
+                  <br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Multivariate Time Series Synthesis Using Generative Adversarial Networks</h4>
+                <br />
+                <p class="timeline-text"><b>Mark Leznik</b>, Patrick Michalsky, Peter Willis, Benjamin Schanzel, Jörg Domaschka</p>
+                <br />
+                <p class="timeline-text">
+                  This is the background paper that provided the foundation for my thesis, we have shown time series synthesis to be a feasible using GANs and LSTMs with more than 500 timesteps.
+                  This work is currently also my most cited paper, as it provides a baseline of time series synthesis using GANs.
+                  
+                  <li class="social-item">
+                    <a href="https://dl.acm.org/doi/pdf/10.1145/3427921.3450257" target="_blank" class="social-link">
+                      <img src="./assets/images/pdf.svg" alt="Web development icon" width="20">
+                    </a>
+                  </li>
+                  <br />
+                </p>
+              </li>
+
+            </ol>
+
+        </section>
+      
+      </article>
+
+       <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="drinks">
+
+        <header>
+          <h2 class="h2 article-title">Drinks</h2>
+        </header>
+
+        <section class="projects">
+
+          <section class="about-text">
+            <p>
+              Throughout my time as a Ph.D. student I have also been working part-time as a bartender.
+              This was a great hobby and outlet, especially when compared to an office job.
+              With over 6 years of experience, I started as a barback and server, and worked my way up to bar manager, responsible for over 30 employees.
+              My experience includes menu creation, mixology, bartending classes, tasting workshops. 
+            </p>
+  
+            <p>
+              The culmination of my bartending career was my participation and winning the "Wyborowa Mixing Competition 2021" in Cologne, Germany. 
+              The prize included a trip to Warsaw, Poland, where we toured the Polish Wodka Museum and enjoyed this vibrant city.
+            </p>
+          </section>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value></div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/portfolio/pour.jpg" alt="finance" loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/portfolio/pmartini.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/portfolio/drink.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/portfolio/airmail.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/portfolio/banana.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/portfolio/grasshopper.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/portfolio/serve.MOV" alt="summary" loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/portfolio/prize.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/portfolio/shake.MP4" alt="arrival" loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
